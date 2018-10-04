@@ -1,8 +1,8 @@
 import React from "react";
 
 const About = () => (
-  <div className="about">
-    <h1>About</h1>
+  <div>
+    <h1 className="about">About</h1>
   </div>
 );
 
