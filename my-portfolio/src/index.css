@@ -2,5 +2,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: hsl(120, 35%, 25%);
+  background-image: linear-gradient(
+    to right,
+    rgb(64, 87, 27),
+    rgb(105, 59, 23)
+  );
 }
