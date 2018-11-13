@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "npm": "^6.4.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-particles-js": "^2.3.0",
