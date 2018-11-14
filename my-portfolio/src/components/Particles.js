@@ -4,7 +4,7 @@ import Particles from "react-particles-js";
 const particlesOps = {
   particles: {
     number: {
-      value: 40,
+      value: 35,
       density: {
         enable: true,
         value_area: 900,
@@ -58,7 +58,7 @@ const particlesOps = {
 
     move: {
       enable: true,
-      speed: 4,
+      speed: 7,
       direction: "none",
       random: false,
       straight: false,
