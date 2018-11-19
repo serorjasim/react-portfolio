@@ -17,6 +17,7 @@ class App extends Component {
             bottom: 0,
             right: 0,
             left: 0,
+            zIndex: -1,
           }}
         />
       </div>
