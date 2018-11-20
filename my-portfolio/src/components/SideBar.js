@@ -1,37 +1,25 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-
-const routes = [
-  {
-    path: "/",
-    exact: true,
-    main: () => <h2>Home!!!!!</h2>,
-  },
-  {
-    path: "/About",
-    main: () => <h2>About</h2>,
-  },
-  {
-    path: "/Skills",
-    main: () => <h2>Skills</h2>,
-  },
-  {
-    path: "/Projects",
-    main: () => <h2>Projects</h2>,
-  },
-  {
-    path: "/Resume",
-    main: () => <h2>Resume</h2>,
-  },
-];
+import cn from "classnames";
+import { Link } from "react-router-dom";
 
 class SideBar extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { open: false };
+  }
+
+  toggleSidebar = () => {
+    const { open } = this.state;
+
+    this.setState({ open: !open });
+  };
+
   render() {
+    const { open } = this.state;
     return (
-      <Router>
-        <div>
-          <div className="side-bar">
-            <div className="toggle-btn">&#9776;</div>
+      <React.Fragment>
+        <div style={{ display: "flex", height: "100%" }}>
+          <div className={cn("side-bar", { open: open })}>
             <ul>
               <li>
                 <Link to="/">Home</Link>
@@ -50,11 +38,11 @@ class SideBar extends React.Component {
               </li>
             </ul>
           </div>
-          {routes.map(route => (
-            <Route key={route.path} path={route.path} exact={route.exact} component={route.main} />
-          ))}
+          <div className="toggle-btn" onClick={this.toggleSidebar}>
+            &#9776;
+          </div>
         </div>
-      </Router>
+      </React.Fragment>
     );
   }
 }

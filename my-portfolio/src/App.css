@@ -4,19 +4,38 @@
   font-family: sans-serif;
 }
 
+#root .App {
+  height: 100vh;
+}
+
 .side-bar {
-  position: fixed;
-  width: 200px;
+  width: 0px;
   height: 100%;
   background: #151719;
+  overflow: hidden;
+  transition: width 1s;
+  z-index: 1;
+}
+
+.side-bar.open {
+  width: 150px;
+  overflow: hidden;
 }
 
 .side-bar ul li {
   list-style: none;
-  padding: 15px 10px;
-  border-bottom: 1px solid rgb(60, 59, 59);
+  padding: 15px 15px;
+  border-bottom: 1px solid rgb(50, 49, 49);
 }
 
 .side-bar ul li a {
   color: whitesmoke;
+  text-decoration: none;
+}
+
+.toggle-btn {
+  display: block;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 1;
 }
