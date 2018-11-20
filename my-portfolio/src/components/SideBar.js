@@ -25,17 +25,16 @@ const routes = [
   },
 ];
 
-class SideNav extends React.Component {
+class SideBar extends React.Component {
   render() {
     return (
       <Router>
-        <div style={{ display: "flex" }}>
-          <div style={{ padding: "10px", width: "40%", background: "f0f0f0" }}>
-            <ul style={{ listStyleType: "none", padding: 0 }}>
+        <div>
+          <div className="side-bar">
+            <div className="toggle-btn">&#9776;</div>
+            <ul>
               <li>
-                <Link className="link" to="/">
-                  Home
-                </Link>
+                <Link to="/">Home</Link>
               </li>
               <li>
                 <Link to="/About">About</Link>
@@ -50,14 +49,14 @@ class SideNav extends React.Component {
                 <Link to="/Resume">Resume</Link>
               </li>
             </ul>
-            {routes.map(route => (
-              <Route key={route.path} path={route.path} exact={route.exact} component={route.main} />
-            ))}
           </div>
+          {routes.map(route => (
+            <Route key={route.path} path={route.path} exact={route.exact} component={route.main} />
+          ))}
         </div>
       </Router>
     );
   }
 }
 
-export default SideNav;
+export default SideBar;

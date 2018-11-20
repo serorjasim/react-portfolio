@@ -1,11 +1,22 @@
-.App {
-  text-align: center;
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
 }
 
-.about {
-  color: firebrick;
+.side-bar {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #151719;
 }
 
-.link {
-  color: yellow;
+.side-bar ul li {
+  list-style: none;
+  padding: 15px 10px;
+  border-bottom: 1px solid rgb(60, 59, 59);
+}
+
+.side-bar ul li a {
+  color: whitesmoke;
 }
