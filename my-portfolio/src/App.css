@@ -31,6 +31,13 @@
 .side-bar ul li a {
   color: whitesmoke;
   text-decoration: none;
+  transition: font-size 0.3s ease;
+  font-size: 20px;
+}
+
+.side-bar ul li a:hover {
+  color: #99346c;
+  font-size: 25px;
 }
 
 .toggle-btn {

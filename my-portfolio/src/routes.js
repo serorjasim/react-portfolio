@@ -1,4 +1,5 @@
 import React from "react";
+import About from "./components/About";
 
 export const routes = [
   {
@@ -8,7 +9,7 @@ export const routes = [
   },
   {
     path: "/About",
-    main: () => <h2>About</h2>,
+    main: () => <About />,
   },
   {
     path: "/Skills",
