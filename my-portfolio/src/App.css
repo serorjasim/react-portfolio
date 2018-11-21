@@ -48,10 +48,7 @@
 }
 
 .content {
-  background: white;
   margin: auto;
-  border-radius: 5px;
-  box-shadow: 5px 10px 10px #888888;
   height: 300px;
   width: 300px;
   position: fixed;
@@ -64,4 +61,7 @@
 .icons a {
   color: palegreen;
   z-index: 1;
+}
+
+.home-container {
 }
