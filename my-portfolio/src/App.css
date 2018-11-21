@@ -8,6 +8,8 @@
   height: 100vh;
 }
 
+/*----------side bar---------*/
+
 .side-bar {
   width: 0px;
   height: 100%;
@@ -57,6 +59,8 @@
   transform: translate(-50%, -50%);
   z-index: 1;
 }
+
+/*-----------home page---------*/
 
 .home-container {
   text-align: center;
