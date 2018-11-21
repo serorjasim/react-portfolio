@@ -13,7 +13,7 @@
   height: 100%;
   background: #151719;
   overflow: hidden;
-  transition: width 1s;
+  transition: width 0.6s;
   z-index: 1;
 }
 
@@ -47,7 +47,7 @@
   z-index: 1;
 }
 
-.content {
+/* .content {
   background: white;
   margin: auto;
   border-radius: 5px;
@@ -58,4 +58,4 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+} */

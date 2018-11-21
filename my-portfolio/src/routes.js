@@ -1,11 +1,12 @@
 import React from "react";
 import About from "./components/About";
+import Home from "./components/Home";
 
 export const routes = [
   {
     path: "/",
     exact: true,
-    main: () => <h2>Home!!!!!</h2>,
+    main: () => <Home />,
   },
   {
     path: "/About",
