@@ -58,10 +58,32 @@
   z-index: 1;
 }
 
-.icons a {
-  color: palegreen;
+.home-container {
+  text-align: center;
+  width: 400px;
+}
+
+.title {
+  padding: 15px;
+  font-size: 70px;
+  color: #30888b;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.work {
+  font-size: 35px;
+  color: #30888b;
+  font-weight: normal;
+  padding: 5px;
+}
+
+.icons {
+  padding: 20px;
   z-index: 1;
 }
 
-.home-container {
+.icons a {
+  padding: 15px;
+  font-size: 35px;
+  color: #53a080;
 }
