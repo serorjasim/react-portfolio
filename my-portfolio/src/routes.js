@@ -1,6 +1,7 @@
 import React from "react";
-import About from "./components/About";
 import Home from "./components/Home";
+import About from "./components/About";
+import Skills from "./components/Skills";
 
 export const routes = [
   {
@@ -14,7 +15,7 @@ export const routes = [
   },
   {
     path: "/Skills",
-    main: () => <h2>Skills</h2>,
+    main: () => <Skills />,
   },
   {
     path: "/Projects",
