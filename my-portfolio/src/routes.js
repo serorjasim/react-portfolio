@@ -23,6 +23,6 @@ export const routes = [
   },
   {
     path: "/Resume",
-    main: () => <h2>Resume</h2>,
+    main: () => <a href="Resume.pdf" />,
   },
 ];

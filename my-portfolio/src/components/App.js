@@ -1,8 +1,6 @@
 import React from "react";
 import { Route } from "react-router-dom";
-
 import { routes } from "../routes";
-
 import SideBar from "./SideBar";
 
 class App extends React.Component {

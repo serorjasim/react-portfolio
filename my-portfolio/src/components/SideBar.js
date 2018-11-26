@@ -34,7 +34,9 @@ class SideBar extends React.Component {
                 <Link to="/Projects">Projects</Link>
               </li>
               <li>
-                <Link to="/Resume">Resume</Link>
+                <a href="resume.pdf" target="_blank">
+                  Resume
+                </a>
               </li>
             </ul>
           </div>
