@@ -91,3 +91,28 @@
   font-size: 35px;
   color: #53a080;
 }
+
+/*------------skills page-----------*/
+.skills-container {
+  background: white;
+  position: relative;
+  right: 40px;
+  bottom: 40px;
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  column-count: 3;
+}
+
+.skills-title {
+  text-align: center;
+}
+
+.skill {
+  margin: 40px 0px 40px 0px;
+  text-align: center;
+}
+
+.skill i {
+  font-size: 30px;
+}
