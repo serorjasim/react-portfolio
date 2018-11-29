@@ -28,47 +28,19 @@ const Skills = () => (
 
     <SkillsGroup
       skills={[
-        { name: "Javascript", icon: "devicon-javascript-plain" },
-        { name: "React", icon: "devicon-react-original" },
-        { name: "Node", icon: "devicon-nodejs-plain" },
+        { name: "jQuery", icon: "devicon-jquery-plain" },
+        { name: "MySQL", icon: "devicon-mysql-plain" },
+        { name: "MongoDB", icon: "devicon-mongodb-plain" },
       ]}
     />
 
     <SkillsGroup
       skills={[
-        { name: "Javascript", icon: "devicon-javascript-plain" },
-        { name: "React", icon: "devicon-react-original" },
-        { name: "Node", icon: "devicon-nodejs-plain" },
+        { name: "Express", icon: "devicon-express-original" },
+        { name: "HTML", icon: "devicon-html5-plain" },
+        { name: "CSS", icon: "devicon-css3-plain" },
       ]}
     />
-    {/* <div className="skills-group">
-      <span className="skill">
-        <i className="devicon-jquery-plain colored" />
-        <p>jQuery</p>
-      </span>
-      <span className="skill">
-        <i className="devicon-mysql-plain colored" />
-        <p>MySQL</p>
-      </span>
-      <span className="skill">
-        <i className="devicon-mongodb-plain colored" />
-        <p>MongoDB</p>
-      </span>
-    </div>
-    <div className="skills-group">
-      <span className="skill">
-        <i className="devicon-express-original colored" />
-        <p>Express</p>
-      </span>
-      <span className="skill">
-        <i className="devicon-html5-plain colored" />
-        <p>HTML</p>
-      </span>
-      <span className="skill">
-        <i className="devicon-css3-plain colored" />
-        <p>CSS</p>
-      </span>
-    </div> */}
   </div>
 );
 
