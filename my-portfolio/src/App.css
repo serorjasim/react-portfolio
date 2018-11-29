@@ -14,7 +14,7 @@
 .side-bar {
   width: 0px;
   height: 100%;
-  background: #4d0126;
+  background: #3c011e;
   overflow: hidden;
   transition: width 0.6s;
   z-index: 1;
@@ -44,7 +44,7 @@
 }
 
 .toggle-btn {
-  color: #7f0640;
+  color: #77013a;
   display: block;
   font-size: 40px;
   cursor: pointer;
@@ -96,17 +96,19 @@
 
 /*------------skills page-----------*/
 .skills-container {
-  background: white;
+  background: rgb(11, 34, 44);
   width: 400px;
   margin-top: -55px;
   text-align: center;
-  margin-left: -35px;
+  margin-left: -50px;
   border-radius: 20px;
 }
 
 .skills-title {
   text-align: center;
   padding-top: 10px;
+  color: whitesmoke;
+  font-family: arial;
 }
 
 .skills-group {
@@ -116,12 +118,14 @@
 }
 
 .skill i {
-  font-size: 60px;
+  font-size: 70px;
 }
 
 .skill p {
+  color: whitesmoke;
   margin-top: 10px;
   margin-bottom: 20px;
-  font-size: 15px;
+  font-size: 17px;
   text-align: center;
+  font-family: arial;
 }
