@@ -130,3 +130,9 @@
   text-align: center;
   font-family: arial;
 }
+
+/*------------projects page-----------*/
+.projects-images {
+  height: 100px;
+  width: 100px;
+}
