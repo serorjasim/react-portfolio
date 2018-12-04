@@ -132,7 +132,21 @@
 }
 
 /*------------projects page-----------*/
+
+.projects-container {
+  background: white;
+  width: 400px;
+  height: 400px;
+}
+
+.projects-title {
+  text-align: center;
+}
+
 .projects-images {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 10px;
 }
