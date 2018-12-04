@@ -172,3 +172,8 @@
 .project-name:hover {
   background: blue;
 }
+
+.repo {
+  font-size: 20px;
+  text-align: center;
+}
