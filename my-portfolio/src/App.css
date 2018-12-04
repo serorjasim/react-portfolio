@@ -137,16 +137,38 @@
   background: white;
   width: 400px;
   height: 400px;
+  border-radius: 20px;
+  margin-top: -55px;
+  margin-left: -50px;
+}
+
+.projects-group {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.anchor {
+  text-decoration: none;
 }
 
 .projects-title {
   text-align: center;
+  padding-top: 10px;
 }
 
 .projects-images {
   height: 150px;
   width: 150px;
-  display: inline-block;
-  margin-top: 20px;
-  border-radius: 10px;
+  padding-left: 25px;
+  border-radius: 40px;
+}
+
+.project-name {
+  font-size: 23px;
+  text-align: center;
+}
+
+.project-name:hover {
+  background: blue;
 }
