@@ -22,8 +22,4 @@ export const routes = [
     path: "/Projects",
     main: () => <Projects />,
   },
-  {
-    path: "/Resume",
-    main: () => <a href="Resume.pdf" />,
-  },
 ];

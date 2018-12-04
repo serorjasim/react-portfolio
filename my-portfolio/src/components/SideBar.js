@@ -1,6 +1,7 @@
 import React from "react";
 import cn from "classnames";
 import { Link } from "react-router-dom";
+import Resume from "../Resume.pdf";
 
 class SideBar extends React.Component {
   constructor(props) {
@@ -34,7 +35,7 @@ class SideBar extends React.Component {
                 <Link to="/Projects">Projects</Link>
               </li>
               <li>
-                <a href="resume.pdf" target="_blank">
+                <a href={Resume} target="_blank">
                   Resume
                 </a>
               </li>
