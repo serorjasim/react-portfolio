@@ -36,6 +36,7 @@
   text-decoration: none;
   transition: font-size 0.3s ease;
   font-size: 20px;
+  font-family: arial;
 }
 
 .side-bar ul li a:hover {
@@ -66,22 +67,23 @@
 
 .home-container {
   text-align: center;
-  width: 400px;
-  margin-left: -50px;
+  width: 450px;
+  margin-left: -80px;
 }
 
 .title {
   padding: 15px;
   font-size: 70px;
-  color: #30888b;
-  font-family: "Times New Roman", Times, serif;
+  color: #7e5888;
+  font-family: arial;
 }
 
 .work {
   font-size: 35px;
-  color: #30888b;
+  color: #679294;
   font-weight: normal;
   padding: 5px;
+  font-family: arial;
 }
 
 .icons {
@@ -92,7 +94,7 @@
 .icons a {
   padding: 15px;
   font-size: 35px;
-  color: #53a080;
+  color: #885a58;
 }
 
 /*------------about page-----------*/
@@ -108,10 +110,12 @@
 
 .about-title {
   color: whitesmoke;
+  font-family: arial;
 }
 
 .about-description {
   color: whitesmoke;
+  font-family: arial;
 }
 
 /*------------skills page-----------*/
@@ -177,6 +181,7 @@
   text-align: center;
   padding-top: 10px;
   color: whitesmoke;
+  font-family: arial;
 }
 
 .projects-images {
@@ -195,6 +200,7 @@
   text-align: center;
   padding-top: 10px;
   color: whitesmoke;
+  font-family: arial;
 }
 
 .project-name:hover {
