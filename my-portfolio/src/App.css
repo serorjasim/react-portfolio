@@ -102,9 +102,9 @@
   background: rgb(11, 34, 44);
   width: 700px;
   height: 450px;
-  margin-top: -55px;
+  margin-top: -65px;
   text-align: center;
-  margin-left: -50px;
+  margin-left: -190px;
   border-radius: 20px;
   box-shadow: 1px 1px 10px rgb(95, 95, 109);
 }
@@ -119,6 +119,7 @@
 .about-description {
   color: whitesmoke;
   font-family: arial;
+  padding-left: 40px;
 }
 
 .about-image {
