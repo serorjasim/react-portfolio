@@ -1,9 +1,11 @@
 import React from "react";
+import seror from "../images/seror.png";
 
 const About = () => (
   <div className="about-container">
     <h1 className="about-title">About Me</h1>
     <br />
+    <img className="about-image" src={seror} alt={"seror"} />
     <p className="about-description">
       is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
       text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen

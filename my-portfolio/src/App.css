@@ -100,7 +100,8 @@
 /*------------about page-----------*/
 .about-container {
   background: rgb(11, 34, 44);
-  width: 400px;
+  width: 700px;
+  height: 450px;
   margin-top: -55px;
   text-align: center;
   margin-left: -50px;
@@ -111,11 +112,22 @@
 .about-title {
   color: whitesmoke;
   font-family: arial;
+  padding-right: 280px;
+  padding-top: 10px;
 }
 
 .about-description {
   color: whitesmoke;
   font-family: arial;
+}
+
+.about-image {
+  height: 350px;
+  width: 250px;
+  float: right;
+  padding-right: 50px;
+  padding-left: 50px;
+  border-radius: 25%;
 }
 
 /*------------skills page-----------*/
