@@ -168,6 +168,33 @@
   font-family: arial;
 }
 
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms ease-out;
+}
+
+.fade-leave {
+  opacity: 1;
+}
+
+.fade-leave-active {
+  opacity: 0;
+  transition: opacity 1000ms ease-out;
+}
+
+.fade-appear {
+  opacity: 0;
+}
+
+.fade-appear-active {
+  opacity: 1;
+  transition: opacity 1000ms ease-out;
+}
+
 /*------------projects page-----------*/
 
 .projects-container {

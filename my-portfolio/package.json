@@ -12,6 +12,8 @@
     "devicon-react": "^1.1.1",
     "npm": "^6.4.1",
     "react": "^16.4.1",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-addons-transition-group": "^15.6.2",
     "react-devicon": "^0.1.9",
     "react-dom": "^16.4.1",
     "react-particles-js": "^2.3.0",
