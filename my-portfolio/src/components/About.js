@@ -15,17 +15,13 @@ const About = () => (
       <br />
       <img className="about-image" src={seror} alt={"seror"} />
       <p className="about-description">
-        is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-        dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-        specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged.
+        I’m software engineer based in Austin, TX. I enjoy playing soccer, live music, and learning new things.
       </p>
       <br />
       <p className="about-description">
-        is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-        dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-        specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged.
+        After moving to Austin few years ago, I met people who did computer programming. As I learned about it, I knew
+        right away that’s what I wanted to do. I took a coding bootcamp at the University of Texas. There I learned the
+        fundemantals of programming in different languages and frameworks.
       </p>
     </div>
   </ReactCSSTransitionGroup>
