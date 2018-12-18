@@ -107,6 +107,7 @@
   margin-left: -190px;
   border-radius: 20px;
   box-shadow: 1px 1px 10px rgb(95, 95, 109);
+  opacity: 0.9;
 }
 
 .about-title {
@@ -140,6 +141,7 @@
   margin-left: -50px;
   border-radius: 20px;
   box-shadow: 1px 1px 10px rgb(95, 95, 109);
+  opacity: 0.9;
 }
 
 .skills-title {
@@ -168,33 +170,6 @@
   font-family: arial;
 }
 
-.fade-enter {
-  opacity: 0;
-}
-
-.fade-enter-active {
-  opacity: 1;
-  transition: opacity 1000ms ease-out;
-}
-
-.fade-leave {
-  opacity: 1;
-}
-
-.fade-leave-active {
-  opacity: 0;
-  transition: opacity 1000ms ease-out;
-}
-
-.fade-appear {
-  opacity: 0;
-}
-
-.fade-appear-active {
-  opacity: 1;
-  transition: opacity 1000ms ease-out;
-}
-
 /*------------projects page-----------*/
 
 .projects-container {
@@ -205,6 +180,7 @@
   margin-top: -55px;
   margin-left: -150px;
   box-shadow: 1px 1px 10px rgb(98, 98, 110);
+  opacity: 0.9;
 }
 
 .projects-group {
@@ -256,4 +232,33 @@
 
 .repo:hover {
   color: rgb(170, 150, 114);
+}
+
+/*------------------transition styling----------------*/
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms ease-out;
+}
+
+.fade-leave {
+  opacity: 1;
+}
+
+.fade-leave-active {
+  opacity: 0;
+  transition: opacity 1000ms ease-out;
+}
+
+.fade-appear {
+  opacity: 0;
+}
+
+.fade-appear-active {
+  opacity: 1;
+  transition: opacity 1000ms ease-out;
 }
