@@ -14,7 +14,7 @@
 .side-bar {
   width: 0px;
   height: 100%;
-  background: #0f2928;
+  background: #271129;
   overflow: hidden;
   transition: width 0.6s;
   z-index: 1;
@@ -41,12 +41,12 @@
 }
 
 .side-bar ul li a:hover {
-  color: #88a1e7;
+  color: rgb(41, 108, 136);
   font-size: 25px;
 }
 
 .toggle-btn {
-  color: #77013a;
+  color: #682f6e;
   display: block;
   font-size: 40px;
   cursor: pointer;
