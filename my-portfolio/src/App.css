@@ -98,6 +98,10 @@
   color: #885a58;
 }
 
+.icons a:hover {
+  color: #37792a;
+}
+
 /*------------about page-----------*/
 .about-container {
   background: rgb(11, 34, 44);
@@ -268,5 +272,7 @@
 
 .my-name {
   color: turquoise;
-  text-align: center;
+  margin-left: 900px;
+  margin-top: 50px;
+  display: block;
 }
