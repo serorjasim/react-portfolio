@@ -19,15 +19,16 @@ const About = () => (
       </p>
       <br />
       <p className="about-description">
-        After moving to Austin few years ago, I met people who did computer programming. As I learned about it, I knew
-        right away that’s what I wanted to do. I took a coding bootcamp at the University of Texas. There I learned the
-        fundemantals of programming in different languages and frameworks.
+        After moving to Austin few years ago, I began meeting people around town who were computer programers. Once I
+        learned the content of their work, I immediately knew it was the career I wanted to pursue. My interest inspired
+        me to take a coding bootcamp at the University of Texas, where I learned the fundemantals of programming in
+        different languages and frameworks.
       </p>
       <br />
       <p className="about-description">
-        I have worked as an Interpreter. While doing that, I learned that attention to detail is key to being
-        successful. I’m always eager to improve my skills and learn new technologies. Therefor I believe I can
-        contribute to the success of any team when given the chance.
+        I also have worked as an Interpreter where I learned that attention to detail is key to being successful. I’m
+        always eager to improve my skills and learn new technologies. As a result I believe I can contribute to the
+        success of any team when given the chance.
       </p>
     </div>
   </ReactCSSTransitionGroup>
