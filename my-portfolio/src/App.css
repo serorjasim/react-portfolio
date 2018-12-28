@@ -267,12 +267,3 @@
   opacity: 1;
   transition: opacity 1000ms ease-out;
 }
-
-/*------------------myname styling----------------*/
-
-.my-name {
-  color: turquoise;
-  margin-left: 900px;
-  margin-top: 50px;
-  display: block;
-}

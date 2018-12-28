@@ -28,7 +28,7 @@ const About = () => (
       <p className="about-description">
         I also have worked as an Interpreter where I learned that attention to detail is key to being successful. I’m
         always eager to improve my skills and learn new technologies. As a result I believe I can contribute to the
-        success of any team when given the chance.
+        success of any team when given the opportunity.
       </p>
     </div>
   </ReactCSSTransitionGroup>
